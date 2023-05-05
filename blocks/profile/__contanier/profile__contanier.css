@@ -1,0 +1,12 @@
+.profile__contanier {
+  display: grid;
+  grid-template-columns: max-content min-content;
+  align-items: baseline;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 719px) {
+  .profile__contanier {
+    column-gap: 10px;
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+  <header class="header">
+    <img src="./images/logo.svg" class="header__logo" alt="Логотип">
+  </header>
+  <main>
+    <section class="profile">
+      <img src="./images/profile_photo.png" alt="Фото профиля" class="profile__photo">
+      <div class="profile__info">
+        <div class="profile__contanier">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__edit-button" type="button"></button>
+        </div>
+        <p class="profile__description">Исследователь океана</p>
+      </div>
+      <button class="profile__add-button" type="button"></button>
+    </section>
+    <section class="elements">
+      <div class="element">
+        <img src="./images/Karachaevsk.png" alt="Карачаевск" class="element__card">
+        <div class="element__details">
+          <h2 class="element__name">Карачаевск</h2>
+          <button class="element__like element__like_active" type="button" tabindex="1"></button>
+        </div>
+      </div>
+      <div class="element">
+        <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__card">
+        <div class="element__details">
+          <h2 class="element__name">Гора Эльбрус</h2>
+          <button class="element__like element__like_active" type="button" tabindex="1"></button>
+        </div>
+      </div>
+      <div class="element">
+        <img src="./images/dombai.png" alt="Домбай" class="element__card">
+        <div class="element__details">
+          <h2 class="element__name">Домбай</h2>
+          <button class="element__like element__like_active" type="button" tabindex="1"></button>
+        </div>
+      </div>
+      <div class="element">
+        <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__card">
+        <div class="element__details">
+          <h2 class="element__name">Гора Эльбрус</h2>
+          <button class="element__like element__like_active" type="button" tabindex="1"></button>
+        </div>
+      </div>
+      <div class="element">
+        <img src="./images/dombai.png" alt="Домбай" class="element__card">
+        <div class="element__details">
+          <h2 class="element__name">Домбай</h2>
+          <button class="element__like element__like_active" type="button" tabindex="1"></button>
+        </div>
+      </div>
+      <div class="element">
+        <img src="./images/Karachaevsk.png" alt="Карачаево-Черкессия" class="element__card">
+        <div class="element__details">
+          <h2 class="element__name">Карачаево-Черкессия</h2>
+          <button class="element__like element__like_active" type="button" tabindex="1"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">&#169; 2023 Mesto Russia</p>
+  </footer>
+  <div class="pop-up pop-up_disabled">
+    <div class="pop-up__contanier">
+      <form class="form" name="profile-form">
+        <h2 class="form__title">Редактировать профиль</h2>
+        <input class="form__input" type="text" id="profile-name" name="profile-name" value="Жак-Ив Кусто">
+        <input class="form__input" type="text" id="profile-description" name="profile-description" value="Исследователь океана">
+        <button class="form__submit-button" type="submit">Сохранить</button>
+      </form>
+      <button class="pop-up__close-icon" type="button"></button>
+    </div>
+  </div>
+</body>
+</html>
