@@ -3,5 +3,11 @@
   width: 246px;
   display: flex;
   justify-content: space-between;
-  padding: 25px 0 31px;
+  padding: 24px 0 25px;
+}
+
+@media screen and (max-width: 719px) {
+  .element__details {
+    padding: 22px 0 25px;
+  }
 }

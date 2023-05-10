@@ -5,8 +5,15 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 282px);
   column-gap: 17px;
-  row-gap: 20px;
+  row-gap: 18px;
   justify-content: center;
+}
+
+@media screen and (max-width: 719px) {
+  .elements {
+    padding: 35px 0 48px;
+    row-gap: 20px;
+  }
 }
 
 
