@@ -1,8 +1,7 @@
 .form__input {
   margin: 0 auto 30px;
   padding-bottom: 8px;
-  width: 358px;
-  height: 100%;
+  width: 100%;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -17,6 +16,6 @@
 
 @media screen and (max-width: 719px) {
   .form__input {
-    width: 238px;
+    width: 100%;
   }
 }

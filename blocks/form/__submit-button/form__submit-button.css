@@ -1,8 +1,7 @@
 .form__submit-button {
   margin: 20px auto 0;
   padding: 14px 0;
-  width: 358px;
-  height: 100%;
+  width: 100%;
   background: #000;
   border-radius: 2px;
   font-weight: 400;
@@ -22,8 +21,7 @@
   .form__submit-button {
     margin: 13px auto 0;
     padding: 16px 0;
-    width: 238px;
-    height: 100%;
+    width: 100%;
     font-size: 14px;
     line-height: 17px;
   }
